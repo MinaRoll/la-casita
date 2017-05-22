@@ -49,3 +49,23 @@ body{
 	position: absolute;
 	bottom: 0;
 }
+
+/*coordenadas y estilo para la puerta de la casa*/
+#puerta{
+	background-color: #696B7F;
+	width: 140px;
+	height: 220px;
+	position: absolute;
+	left: 60px;
+	bottom: 0;
+}
+
+/*coordenadas y estilo para la ventana de casa*/
+#ventana{
+	background-color: #DB5298;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 300px;
+	bottom: 100px;
+}
