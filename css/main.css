@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/* le doy coordenadas al circulo para recrear el sol*/
+#sol { 
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+/*le doy coordenadas al rectangulo para recrear pasto*/
+#pasto{
+	background-color: #49E83E;
+	width: 2000px;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+}
