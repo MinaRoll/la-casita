@@ -6,13 +6,17 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class="circle" id="sol"></div> <!--le doy clase circle para recrear un sol-->
+	<div class="circle" id="sol"></div> <!--le doy clase e id para recrear un sol-->
 	<div class="rectangle" id="pasto"></div> <!--le doy clase rectangle para recrear pasto-->
 	<!-- contenedor (casa) -->
 	<div class="contenedor" id="casita"> <!-- agrego un contenedor "casita" para poner techo y estructura de la casa -->
-		<div class="trapezoid" id="techo"></div> <!-- agrego un techo en mi contenedor -->
+		<div class="trapezoid" id="techo"> <!-- agrego un techo en mi contenedor -->
+			<div class="rectangle" id="chimenea"></div> <!-- le doy clase e id a mi chimenea y la pongo  dentro del techo -->
+		</div>
 		<div class="caja" id="estructura"> <!-- agrego la estructura de la casa en mi contenedor -->
-			<div class="caja" id="puerta"></div> <!-- le doy id a la puerta y la agrego dentro de la estructura -->
+			<div class="caja" id="puerta"> <!-- le doy id a la puerta y la agrego dentro de la estructura -->
+				<div class="heart"></div> <!-- le doy clase e id al corazón y lo pongo dentro de la puerta -->
+			</div>
 			<div class="caja" id="ventana"></div> <!-- le doy id a la ventana y la agrego dentro de la estructura -->
 		</div>
 	</div>

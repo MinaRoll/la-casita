@@ -25,7 +25,7 @@ body{
 #casita{
 	width: 500px;
 	height: 500px;
-	position: fixed;
+	position: fixed; /*uso fixed para que mi contenedor quede fijo en el mismo lugar aunque se mueva el documento*/
 	left: 700px;
 	bottom: 40px;
 }
@@ -39,6 +39,16 @@ body{
 	width: 340px;
 	position: absolute;
 	top: 20px;
+}
+
+/*coordenadas y estilo de la chimenea*/
+#chimenea{
+	background-color: #FC475D;
+	width: 40px;
+	height: 90px;
+	position: absolute;
+	right: 10px;
+	top: 60px;
 }
 
 /*coordenadas y estilo de la estructura de la casa*/
@@ -58,6 +68,50 @@ body{
 	position: absolute;
 	left: 60px;
 	bottom: 0;
+}
+
+/*estructura, coordenadas y estilo del corazón en la puerta*/
+.heart {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    left: 20px;
+    top: 40px;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #FC475D;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin :100% 100%;
 }
 
 /*coordenadas y estilo para la ventana de casa*/
