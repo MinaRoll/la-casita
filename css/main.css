@@ -51,6 +51,37 @@ body{
 	top: 60px;
 }
 
+/*coordenadas y estilo del humo*/
+#humo1{
+	width: 30px;
+	height: 30px;
+	background-color: grey;
+	border-radius: 50%;
+	position: absolute;
+	left: 320px;
+	top: 20px;
+}
+
+#humo2{
+	width: 30px;
+	height: 30px;
+	background-color: grey;
+	border-radius: 50%;
+	position: absolute;
+	left: 440px;
+	top: 30px;
+}
+
+#humo3{
+	width: 30px;
+	height: 30px;
+	background-color: grey;
+	border-radius: 50%;
+	position: absolute;
+	left: 470px;
+	top: 0px;
+}
+
 /*coordenadas y estilo de la estructura de la casa*/
 #estructura{
 	background-color: #381B06;
